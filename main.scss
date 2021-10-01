@@ -18,13 +18,14 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  line-height: 27px;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* text----------------------------------------------------------- */
+/* text----------------------------------------------------- */
 
 h1 {
   font-family: "DM Serif Display", serif;
@@ -34,11 +35,13 @@ h1 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: $darkgrey;
+  margin-bottom: 60px;
 }
 .title {
   font-size: 58px;
-  line-height: 25px;
+  line-height: 70px;
   letter-spacing: 0.01em;
+  margin-bottom: 25px;
 }
 h2 {
   font-weight: 500;
@@ -51,7 +54,20 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: capitalize;
   color: $darkgrey;
+  margin-bottom: 36px;
 }
+
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: $darkgrey;
+}
+
 .tag {
   font-weight: 300;
   font-size: 14px;
@@ -59,22 +75,9 @@ h3 {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
-.h2-style2 {
-  font-family: "DM Serif Display", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: $darkgrey;
-}
 
-#section-contact {
-  h1 {
-    text-align: center;
-    color: $accent;
-  }
+.no-margin {
+  margin: 0;
 }
 
 /* lists */
@@ -85,10 +88,10 @@ ul {
   padding: 0;
 }
 
-/* navigation----------------------------------------------------------- */
+/* navigation----------------------------------------------- */
 nav {
   li {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 
     a {
       font-size: 13px;
@@ -155,8 +158,37 @@ section {
   flex-basis: 50%;
 }
 
+.card {
+  li {
+    margin-bottom: 14px;
+  }
+}
+
 .tag {
   margin-right: 28px;
+}
+
+@media (max-width: 60rem) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+  section {
+    padding: 30px 40px 100px 40px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  .section-skill {
+    .container {
+      gap: 0;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 }
 
 /* section hero--------------------------------------------- */
@@ -182,6 +214,20 @@ section {
   -ms-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
   &:hover {
+    color: #f04511;
+  }
+}
+
+/* section contact--------------------------------------------- */
+
+#section-contact {
+}
+.contact-btn-big {
+  h1 {
+    text-align: center;
+    color: $accent;
+  }
+  a:hover {
     color: #f04511;
   }
 }
