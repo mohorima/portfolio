@@ -173,20 +173,42 @@ section {
       flex-basis: 50%;
 }
 
+.card-fluid img {
+  margin-bottom: 26px;
+}
+
 .card li {
   margin-bottom: 14px;
 }
 
-.tag {
-  margin-right: 28px;
+.tags {
+  gap: 28px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 @media (max-width: 60rem) {
-  h1,
-  h2,
-  h3,
-  h4 {
+  body {
     text-align: center;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    color: #4b4b4b;
+  }
+  h3 {
+    margin-bottom: 25px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .tags {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   section {
     padding: 30px 40px 100px 40px;
@@ -196,6 +218,7 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 70px;
   }
   .section-skill .container {
     gap: 0;
@@ -206,6 +229,7 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    text-align: left;
   }
 }
 
@@ -219,14 +243,78 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-image: url(/images/hero-img1-sm.png);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.container-hero-title {
-  margin-top: auto;
-  margin-bottom: auto;
+@media (max-width: 1150px) {
+  .section-hero {
+    background-size: 42vw;
+  }
 }
 
+@media (max-width: 60rem) {
+  .section-hero {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 650px) {
+  .section-hero {
+    background-size: 60vw;
+  }
+}
+
+@media (min-width: 60rem) {
+  .container-hero-title {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+/* section about--------------------------------------------- */
+#section-about {
+  background-image: url(/images/hero-img2.png);
+  background-position: top right;
+  background-size: 640px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 75rem) {
+  #section-about {
+    background-size: 40%;
+  }
+}
+
+@media (max-width: 64rem) {
+  #section-about {
+    background: none;
+  }
+}
+
+.section-about-img {
+  display: none;
+  text-align: right;
+}
+
+.section-about-img img {
+  height: 90vh;
+}
+
+@media (max-width: 60rem) {
+  .section-about-img {
+    display: block;
+  }
+}
+
+/* section contact--------------------------------------------- */
 .contact-btn {
+  margin-top: 100px;
+  position: relative;
   font-family: DM Serif Display;
   font-size: 20px;
   letter-spacing: 0.08rem;
@@ -243,7 +331,28 @@ section {
   color: #f04511;
 }
 
-/* section contact--------------------------------------------- */
+.contact-btn .circle {
+  left: 40px;
+  margin-top: -45px;
+  width: 120px;
+  height: 120px;
+}
+
+@media (max-width: 60rem) {
+  .contact-btn {
+    text-align: center;
+    margin-top: 0;
+  }
+  .contact-btn .circle {
+    left: 50%;
+  }
+}
+
+.contact-btn-big {
+  position: relative;
+  margin-bottom: 110px;
+}
+
 .contact-btn-big h1 {
   text-align: center;
   color: #ca4116;
@@ -251,5 +360,23 @@ section {
 
 .contact-btn-big a:hover {
   color: #f04511;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  margin-top: -60px;
+  width: 210px;
+  height: 210px;
+}
+
+@media (max-width: 60rem) {
+  .circle {
+    left: 50%;
+    margin-top: -40px;
+    width: 170px;
+    height: 170px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
