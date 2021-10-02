@@ -24,6 +24,11 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
 
   &:hover,
   &:active {
@@ -96,7 +101,7 @@ ul {
 /* navigation----------------------------------------------- */
 nav {
   li {
-    margin-bottom: 9px;
+    margin-bottom: 7px;
 
     a {
       font-size: 13px;
@@ -106,7 +111,7 @@ nav {
     }
 
     .sparkle {
-      height: 20px;
+      height: 18px;
       margin-left: 10px;
       margin-bottom: -5px;
       transform: scale(0, 0);
@@ -130,7 +135,6 @@ nav {
     }
   }
 }
-
 
 /* containers----------------------------------------------------------- */
 
@@ -266,7 +270,6 @@ section {
     display: block;
   }
 }
-
 
 /* contact button--------------------------------------------- */
 
