@@ -8,7 +8,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: #2d2d2d;
+  color: #3d3d3d;
   letter-spacing: 0.02rem;
   background-color: #faf5e0;
   margin: 0;
@@ -177,10 +177,6 @@ section {
       flex-basis: 50%;
 }
 
-.card-fluid img {
-  margin-bottom: 26px;
-}
-
 .card li {
   margin-bottom: 14px;
 }
@@ -279,6 +275,64 @@ section {
   }
 }
 
+/* section project--------------------------------------------- */
+.card-framed-content {
+  width: 100%;
+  height: 360px;
+  margin-bottom: 30px;
+  border: 1px solid #4b4b4b;
+}
+
+.card-framed-content .frame-img {
+  width: 100%;
+  height: 340px;
+}
+
+.card-framed-content .frame-img-1 {
+  background: url(/images/bugtrack.png) no-repeat center;
+  background-size: cover;
+}
+
+.card-framed-content .frame-img-2 {
+  background: url(/images/dessert.png) no-repeat center;
+  background-size: cover;
+}
+
+.card-framed-content .frame-img video {
+  width: 100%;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.frame {
+  width: 100%;
+  height: calc(100% - 340px);
+  border-bottom: 1px solid #4b4b4b;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.frame .frame-dots {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3d3d3d;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 /* section about--------------------------------------------- */
 #section-about {
   background-image: url(/images/hero-img2.png);
@@ -349,7 +403,7 @@ section {
 
 .circle {
   position: absolute;
-  left: 50px;
+  left: 60px;
   top: -35px;
   width: 120px;
   height: auto;
