@@ -14,11 +14,24 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <section class="section-hero">
-      <nav>
+  <body class="body">
+    <header>
+      <div id="hamburger">
+        <svg class="menu" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="30" height="30" fill="#4B4B4B" />
+          <path d="M7.5 22.5H22.5V19.5H7.5V22.5ZM7.5 7.5V10.5H22.5V7.5H7.5ZM7.5 16.5H22.5V13.5H7.5V16.5Z" fill="#FAF5E0" />
+        </svg>
+
+        <svg class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="30" height="30" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+          <rect x="0" y="0" width="20" height="20" fill="none" stroke="none" />
+          <path d="M14.95 6.46L11.41 10l3.54 3.54l-1.41 1.41L10 11.42l-3.53 3.53l-1.42-1.42L8.58 10L5.05 6.47l1.42-1.42L10 8.58l3.54-3.53z" fill="#faf5e0" />
+        </svg>
+      </div>
+    </header>
+    <div class="hero">
+      <nav class="nav">
         <ul>
           <li><a href="#section-project">Projects</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
           <li><a href="#section-about">About</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
@@ -26,17 +39,18 @@
           <li><a href="https://github.com/mohorima">Github</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
         </ul>
       </nav>
-
-      <div class="container-hero-title">
-        <h1 class="title">Mohorima Islam</h1>
-        <h1>Full Stack Web Developer</h1>
-        <div class="contact-btn">
-          <img class="circle" src="/images/circle-sm.svg" alt="" />
-          <a href="#section-contact">Contact</a>
-          <img class="sparkle" src="/images/sparkles.svg" alt="" />
+      <section class="section-hero">
+        <div class="container-hero-title">
+          <h1 class="title">Mohorima Islam</h1>
+          <h1>Full Stack Web Developer</h1>
+          <div class="contact-btn">
+            <img class="circle" src="/images/circle-sm.svg" alt="" />
+            <a href="#section-contact">Contact</a>
+            <img class="sparkle" src="/images/sparkles.svg" alt="" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section id="section-project">
       <h1>Recent Projects</h1>
@@ -122,9 +136,7 @@
       </div>
     </section>
 
-    <div class="section-about-img">
-      <img src="/images/hero-img2.png" alt="" />
-    </div>
+    <section class="section-about-img"></section>
 
     <div id="section-about">
       <section class="section-skill">
@@ -191,7 +203,7 @@
       </div>
 
       <h4>islammohorima@gmail.com</h4>
-      <h4><a href="">résumé</a></h4>
+      <h4><a href="/Mohorima-Islam-CV.pdf" download="mohorima-islam-cv">résumé</a></h4>
       <h4>
         <a href="https://github.com/mohorima" style="margin-right: 15px">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
