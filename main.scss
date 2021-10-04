@@ -9,16 +9,19 @@ $background: #faf5e0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+html {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
 body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: $black;
   letter-spacing: 0.02rem;
   background-color: $background;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
   line-height: 27px;
 }
 a {
@@ -46,7 +49,7 @@ h1 {
   letter-spacing: 0.04rem;
   text-transform: capitalize;
   color: $darkgrey;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 .title {
   font-size: 58px;
@@ -161,11 +164,11 @@ section {
     justify-content: center;
   }
   section {
-    padding: 30px 40px 100px 40px;
+    padding: 30px 40px 110px 40px;
   }
   .container {
     flex-direction: column;
-    gap: 70px;
+    gap: 90px;
   }
   .section-skill {
     .container {
@@ -173,6 +176,11 @@ section {
       flex-direction: row;
       justify-content: space-between;
       text-align: left;
+    }
+  }
+  .section-edu {
+    .container {
+      gap: 60px;
     }
   }
 }
@@ -268,6 +276,8 @@ header {
     align-items: center;
     justify-content: center;
     background-color: $darkgrey;
+    background: url(images/menu-img.png) right bottom no-repeat, $darkgrey;
+    background-size: 40vw;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: all 350ms ease-in-out;
@@ -317,7 +327,7 @@ header {
   width: 100%;
   height: 360px;
   margin-bottom: 30px;
-  border: 1px solid $darkgrey;
+  //border: 1px solid $darkgrey;
 
   .frame-img {
     width: 100%;
@@ -340,7 +350,7 @@ header {
 .frame {
   width: 100%;
   height: calc(100% - 340px);
-  border-bottom: 1px solid $darkgrey;
+  //border-bottom: 1px solid $darkgrey;
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -348,7 +358,7 @@ header {
   .frame-dots {
     width: 10px;
     height: 10px;
-    border: 1px solid $black;
+    border: 1px solid #949494;
     margin-right: 10px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
