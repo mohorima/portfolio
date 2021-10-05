@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   color: #303030;
   letter-spacing: 0.02rem;
-  background-color: #f5ece0;
+  background-color: #faf4ea;
   line-height: 27px;
 }
 
@@ -54,7 +54,7 @@ h1 {
   line-height: 44px;
   letter-spacing: 0.04rem;
   text-transform: capitalize;
-  color: #404040;
+  color: #494949;
   margin-bottom: 70px;
 }
 
@@ -75,7 +75,7 @@ h3 {
   font-weight: 400;
   font-size: 12px;
   text-transform: capitalize;
-  color: #404040;
+  color: #494949;
   margin-bottom: 34px;
   margin-top: 0;
 }
@@ -88,7 +88,7 @@ h4 {
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.05rem;
-  color: #404040;
+  color: #494949;
 }
 
 .tag {
@@ -198,7 +198,7 @@ section {
     font-size: 28px;
   }
   h2 {
-    color: #404040;
+    color: #494949;
   }
   h3 {
     margin-bottom: 25px;
@@ -211,6 +211,9 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .no-gap {
+    gap: 0;
   }
 }
 
@@ -238,6 +241,27 @@ section {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 70%;
+  }
+}
+
+.hero-project-1 {
+  background: url(images/bugtrack-hero.png) right top no-repeat;
+  background-size: 52%;
+}
+
+@media (max-width: 60rem) {
+  .hero-project-1 {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 30%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background-size: cover, 60%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .hero-project-1 {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background-size: cover, 75%;
   }
 }
 
@@ -290,7 +314,7 @@ header {
   font-size: 13px;
   letter-spacing: 0.16rem;
   text-transform: uppercase;
-  color: #404040;
+  color: #494949;
 }
 
 .nav li .sparkle {
@@ -336,8 +360,8 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 30px 30px;
-    background-color: #404040;
-    background: url(images/menu-img.png) right bottom no-repeat, #404040;
+    background-color: #494949;
+    background: url(images/menu-img.png) right bottom no-repeat, #494949;
     background-size: 40vw;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -353,7 +377,7 @@ header {
   .nav li a {
     font-size: 24px;
     font-weight: 300;
-    color: #f5ece0;
+    color: #faf4ea;
   }
   .nav li a:hover, .nav li a:active {
     color: #ec6b42;
@@ -384,7 +408,7 @@ header {
 /* section project--------------------------------------------- */
 .card-framed-content {
   width: 100%;
-  height: 360px;
+  min-height: 360px;
   margin-bottom: 30px;
 }
 
@@ -403,16 +427,17 @@ header {
   background-size: cover;
 }
 
-.card-framed-content .frame-img video {
+.card-framed-content .frame-img video,
+.card-framed-content .frame-img img {
   width: 100%;
-  height: 340px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .frame {
   width: 100%;
-  height: calc(100% - 340px);
+  height: 20px;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,16 +450,64 @@ header {
           justify-content: flex-end;
 }
 
-.frame .frame-dots {
+.frame-dots {
   width: 10px;
   height: 10px;
-  border: 1px solid #949494;
+  background-color: #4b4b4b;
   margin-right: 10px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.card-framed-flexible {
+  min-height: 100px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.card-framed-flexible .frame {
+  background-color: #4b4b4b;
+}
+
+.card-framed-flexible .frame .frame-dots {
+  background-color: #ffffff;
+}
+
+.frame-text {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 30px 45px;
+  text-align: left;
+}
+
+.frame-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.frame-text ul {
+  padding: 20px;
+}
+
+.frame-text li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 60rem) {
+  .frame-text {
+    padding: 26px;
+  }
+}
+
+.img-fit {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
 }
 
 /* section about--------------------------------------------- */
