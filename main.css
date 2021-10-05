@@ -161,7 +161,7 @@ section {
     text-align: center;
   }
   section {
-    padding: 30px 30px 110px 30px;
+    padding: 30px 27px 110px 27px;
   }
   .container {
     -webkit-box-orient: vertical;
@@ -256,7 +256,7 @@ header {
   top: 0;
   left: 0;
   text-align: left;
-  padding: 20px 40px;
+  padding: 20px 27px;
   margin: 0;
   z-index: 999;
   cursor: pointer;
