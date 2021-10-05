@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   color: #303030;
   letter-spacing: 0.02rem;
-  background-color: #f5e0ea;
+  background-color: #f5ece0;
   line-height: 27px;
 }
 
@@ -353,7 +353,7 @@ header {
   .nav li a {
     font-size: 24px;
     font-weight: 300;
-    color: #f5e0ea;
+    color: #f5ece0;
   }
   .nav li a:hover, .nav li a:active {
     color: #ec6b42;
