@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   color: #303030;
   letter-spacing: 0.02rem;
-  background-color: #f3eddb;
+  background-color: #f5ece0;
   line-height: 27px;
 }
 
@@ -217,16 +217,16 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f3eddb00), color-stop(#f3eddb), to(#f3eddb)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
-    background: linear-gradient(#f3eddb00 30%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 30%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 60%;
   }
 }
 
 @media (max-width: 40rem) {
   .hero {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f3eddb00), color-stop(#f3eddb), to(#f3eddb)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
-    background: linear-gradient(#f3eddb00 35%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 70%;
   }
 }
@@ -343,7 +343,7 @@ header {
   .nav li a {
     font-size: 24px;
     font-weight: 300;
-    color: #f3eddb;
+    color: #f5ece0;
   }
   .nav li a:hover, .nav li a:active {
     color: #ec6b42;

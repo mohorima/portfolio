@@ -2,7 +2,7 @@
 $black: #303030;
 $darkgrey: #404040;
 $accent: #ca4116;
-$background: #f3eddb;
+$background: #f5ece0;
 
 * {
   box-sizing: border-box;
@@ -195,11 +195,11 @@ section {
 
   @media (max-width: 60rem) {
     justify-content: space-between;
-    background: linear-gradient(#f3eddb00 30%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 30%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 60%;
   }
   @media (max-width: 40rem) {
-    background: linear-gradient(#f3eddb00 35%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 70%;
   }
 }
