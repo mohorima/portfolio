@@ -497,7 +497,7 @@ header {
 @media (max-width: 60rem) {
   .contact-btn {
     text-align: center;
-    margin-top: 0;
+    margin-top: -10px;
     margin-bottom: 30px;
     font-size: 28px;
   }
