@@ -1,8 +1,8 @@
 /* variables */
-$black: #3d3d3d;
-$darkgrey: #4b4b4b;
+$black: #303030;
+$darkgrey: #404040;
 $accent: #ca4116;
-$background: #faf5e0;
+$background: #f3eddb;
 
 * {
   box-sizing: border-box;
@@ -67,7 +67,8 @@ h3 {
   font-size: 12px;
   text-transform: capitalize;
   color: $darkgrey;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
+  margin-top: 0;
 }
 
 h4 {
@@ -147,24 +148,8 @@ section {
   body {
     text-align: center;
   }
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    color: $darkgrey;
-  }
-  h3 {
-    margin-bottom: 25px;
-  }
-  .title {
-    font-size: 42px;
-    margin-bottom: -15px;
-  }
-  .tags {
-    justify-content: center;
-  }
   section {
-    padding: 30px 40px 110px 40px;
+    padding: 30px 30px 110px 30px;
   }
   .container {
     flex-direction: column;
@@ -183,21 +168,38 @@ section {
       gap: 60px;
     }
   }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    color: $darkgrey;
+  }
+  h3 {
+    margin-bottom: 25px;
+  }
+  .title {
+    font-size: 42px;
+    margin-bottom: -15px;
+  }
+  .tags {
+    justify-content: center;
+  }
 }
 
 /* section hero--------------------------------------------- */
 .hero {
+  position: relative;
   min-height: 100vh;
   background: url(images/hero-img1-sm.png) right top no-repeat;
   background-size: contain;
 
   @media (max-width: 60rem) {
     justify-content: space-between;
-    background: linear-gradient(#faf5e000 30%, #faf5e0, #faf5e0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f3eddb00 30%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 60%;
   }
   @media (max-width: 40rem) {
-    background: linear-gradient(#faf5e000 35%, #faf5e0, #faf5e0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#f3eddb00 35%, #f3eddb, #f3eddb) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 70%;
   }
 }
@@ -211,6 +213,8 @@ section {
     justify-content: center;
   }
 }
+
+/* navigation----------------------------------------------- */
 
 header {
   position: fixed;
@@ -226,7 +230,6 @@ header {
   }
 }
 
-/* navigation----------------------------------------------- */
 .nav {
   padding: 30px 140px;
   li {
@@ -268,24 +271,23 @@ header {
 @media (max-width: 60rem) {
   .nav {
     position: fixed;
-    opacity: 0;
     display: flex;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     z-index: 10;
     align-items: center;
     justify-content: center;
+    padding: 30px 30px;
     background-color: $darkgrey;
     background: url(images/menu-img.png) right bottom no-repeat, $darkgrey;
     background-size: 40vw;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: all 350ms ease-in-out;
-    -webkit-transition: all 350ms ease-in-out;
-    -moz-transition: all 350ms ease-in-out;
-    -ms-transition: all 350ms ease-in-out;
-    -o-transition: all 350ms ease-in-out;
-
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
     li {
       margin-bottom: 20px;
       a {
@@ -308,7 +310,6 @@ header {
 .open {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  opacity: 1;
 }
 .close {
   display: none;
