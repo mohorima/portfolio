@@ -230,16 +230,16 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
-    background: linear-gradient(#f5ece000 30%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #faf4ea00), color-stop(#faf4ea), to(#faf4ea)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#faf4ea00 30%, #faf4ea, #faf4ea) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 60%;
   }
 }
 
 @media (max-width: 40rem) {
   .hero {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
-    background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #faf4ea00), color-stop(#faf4ea), to(#faf4ea)) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
+    background: linear-gradient(#faf4ea00 35%, #faf4ea, #faf4ea) right bottom no-repeat, url(images/hero-img1-sm.png) right top no-repeat;
     background-size: cover, 70%;
   }
 }
@@ -251,16 +251,16 @@ section {
 
 @media (max-width: 60rem) {
   .hero-project-1 {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
-    background: linear-gradient(#f5ece000 30%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #faf4ea00), color-stop(#faf4ea), to(#faf4ea)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: linear-gradient(#faf4ea00 30%, #faf4ea, #faf4ea) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
     background-size: cover, 60%;
   }
 }
 
 @media (max-width: 40rem) {
   .hero-project-1 {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #f5ece000), color-stop(#f5ece0), to(#f5ece0)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
-    background: linear-gradient(#f5ece000 35%, #f5ece0, #f5ece0) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #faf4ea00), color-stop(#faf4ea), to(#faf4ea)) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
+    background: linear-gradient(#faf4ea00 35%, #faf4ea, #faf4ea) right bottom no-repeat, url(images/bugtrack-hero.png) right top no-repeat;
     background-size: cover, 75%;
   }
 }
