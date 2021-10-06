@@ -10,11 +10,13 @@ hamburger.addEventListener("click", () => {
   nav.classList.toggle("open");
   menu.classList.toggle("hide");
   close.classList.toggle("show");
+  document.body.classList.toggle("no-scroll");
 });
 navlinks.forEach((el) =>
   el.addEventListener("click", function (e) {
     nav.classList.toggle("open");
     menu.classList.toggle("hide");
     close.classList.toggle("show");
+    document.body.classList.toggle("no-scroll");
   })
 );
