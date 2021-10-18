@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.02rem;
   background-color: #faf4ea;
   line-height: 27px;
-  background: url(images/paper.jpg) center no-repeat;
+  background: url(images/paper.jpg) center fixed no-repeat;
   background-size: cover;
 }
 
