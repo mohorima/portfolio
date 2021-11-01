@@ -19,3 +19,21 @@ navlinks.forEach((el) =>
     close.classList.toggle("show");
   })
 );
+
+const mediaQuery = window.matchMedia("(max-width: 60rem)");
+
+function handleViewportChange(e) {
+    // Check if the media query is true
+    if (e.matches) {
+        navlinks.forEach((el) =>
+          el.addEventListener("click", function (e) {
+            document.body.classList.toggle("no-scroll");
+          })
+        );
+    }
+}
+
+// Register event listener
+mediaQuery.addListener(handleViewportChange);
+// Initial check
+handleViewportChange(mediaQuery);
