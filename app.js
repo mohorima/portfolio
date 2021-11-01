@@ -31,13 +31,6 @@ function handleViewportChange(e) {
           })
         );
     }
-  else{
-    navlinks.forEach((el) =>
-          el.addEventListener("click", function (e) {
-            document.body.classList.remove("no-scroll");
-          })
-        );
-  }
 }
 
 // Register event listener
