@@ -27,7 +27,7 @@ function handleViewportChange(e) {
     if (e.matches) {
         navlinks.forEach((el) =>
           el.addEventListener("click", function (e) {
-            document.body.classList.toggle("no-scroll");
+            document.body.classList.remove("no-scroll");
           })
         );
     }
