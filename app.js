@@ -17,6 +17,5 @@ navlinks.forEach((el) =>
     nav.classList.toggle("open");
     menu.classList.toggle("hide");
     close.classList.toggle("show");
-    document.body.classList.toggle("no-scroll");
   })
 );
