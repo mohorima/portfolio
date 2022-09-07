@@ -32,30 +32,65 @@
       </div>
     </header>
 
-    <div class="hero">
+    <div class="hero hero-bg">
       <nav class="nav">
-        <ul>
-          <li><a href="#section-project">Projects</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
-          <li><a href="#section-about">About</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
-          <li><a href="#section-contact">Contact</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
-          <li><a href="https://github.com/mohorima">Github</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></li>
-        </ul>
+        <div class="nav-link">
+          <a href="home.html"
+            ><svg width="35" height="35" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.279999 64V63.36L1.56562 62.912C3.02266 62.4427 3.75118 61.2267 3.75118 59.264V26.496C3.75118 25.6427 3.64405 24.96 3.42978 24.448C3.25836 23.936 2.76554 23.5093 1.95131 23.168L0.279999 22.4V21.76H12.6863L24.5783 52.736L35.7632 21.76H48.4266V22.4L47.3981 22.784C46.5839 23.0827 46.0268 23.5093 45.7268 24.064C45.4269 24.576 45.2769 25.2587 45.2769 26.112V59.584C45.2769 60.4373 45.384 61.0987 45.5983 61.568C45.8125 62.0373 46.3268 62.4427 47.141 62.784L48.4266 63.36V64H32.4206V63.36L33.7705 62.784C34.5847 62.4427 35.099 62.0373 35.3133 61.568C35.5275 61.0987 35.6347 60.4373 35.6347 59.584V45.184L35.7632 26.88L22.3285 64H19.1144L5.10109 27.328L5.29393 43.264V59.392C5.29393 60.3307 5.4225 61.0987 5.67962 61.696C5.9796 62.2507 6.53671 62.656 7.35093 62.912L8.76512 63.36V64H0.279999Z"
+                fill="#CA4116"
+              />
+              <g clip-path="url(#clip0)">
+                <path d="M40.6482 5.46249C40.6482 14.191 35.9104 22 29.2287 22C35.9104 22 40.6482 29.8095 40.6482 38.5375C40.6482 29.8095 45.386 22 52.0677 22C45.386 22 40.6482 14.191 40.6482 5.46249Z" fill="#CA4116" />
+                <path d="M57.9373 25C57.9373 29.3648 55.5692 33.2687 52.2273 33.2687C55.5692 33.2687 57.9373 37.1738 57.9373 41.5375C57.9373 37.1738 60.3053 33.2687 63.6473 33.2687C60.3053 33.2687 57.9373 29.3648 57.9373 25Z" fill="#CA4116" />
+                <path d="M56.2449 0C56.2449 6.14138 52.9125 11.6358 48.2097 11.6358C52.9117 11.6358 56.2449 17.131 56.2449 23.2716C56.2449 17.131 59.5772 11.6358 64.28 11.6358C59.5772 11.6358 56.2449 6.14138 56.2449 0Z" fill="#CA4116" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="35.1538" height="42" fill="white" transform="translate(29.1262)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+        <div class="nav-link active"><a href="home.html">Home</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+        <div class="nav-link"><a href="#section-project">Projects</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+        <div class="nav-link"><a href="#section-about">About</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+        <div class="nav-link"><a href="#section-contact">Contact</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
       </nav>
       <section class="section-hero">
-        <div class="container-hero-title">
-          <h1 class="title">Mohorima Islam</h1>
-          <h1>Full Stack Web Developer</h1>
-          <div class="contact-btn">
-            <img class="circle" src="/images/circle-sm.svg" alt="" />
-            <a href="#section-contact">Contact</a>
-            <img class="sparkle" src="/images/sparkles.svg" alt="" />
-          </div>
+        <h1 class="title">Mohorima Islam</h1>
+        <h2 class="mb-2 mt-0">UX & UI Designer</h2>
+        <div class="contact-btn">
+          <img class="circle" src="/images/circle-sm.svg" alt="" />
+          <a href="#section-project">Projects</a>
+          <img class="sparkle" src="/images/sparkles.svg" alt="" />
         </div>
       </section>
     </div>
 
     <section id="section-project">
       <h1>Recent Projects</h1>
+      <div class="container mb-1">
+        <div class="card-fluid-100">
+          <a href="/project-lavisco.html">
+            <div class="card-framed-content">
+              <div class="frame">
+                <div class="frame-dots"></div>
+                <div class="frame-dots"></div>
+                <div class="frame-dots"></div>
+              </div>
+              <div class="frame-img frame-img-big">
+                <img src="/images/sc-1.jpg" alt="" />
+              </div>
+            </div>
+          </a>
+          <h3>E-commerce Website</h3>
+          <a href="/project-lavisco.html"><h2>Lavisco</h2></a>
+        </div>
+      </div>
+
       <div class="container">
         <div class="card-fluid">
           <a href="/project.html">
@@ -65,31 +100,13 @@
                 <div class="frame-dots"></div>
                 <div class="frame-dots"></div>
               </div>
-              <div class="frame-img frame-img-1"></div>
+              <div class="frame-img">
+                <img src="/images/dashboard.png" alt="" />
+              </div>
             </div>
           </a>
-
-          <div class="row row-space-between">
-            <h3 class="no-margin">Web Application</h3>
-            <a href="https://github.com/mohorima/bug-tracker">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
-                <title>Github</title>
-                <rect x="0" y="0" width="1024" height="1024" fill="none" stroke="none" />
-                <path
-                  d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5C64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9c26.4 39.1 77.9 32.5 104 26c5.7-23.5 17.9-44.5 34.7-60.8c-140.6-25.2-199.2-111-199.2-213c0-49.5 16.3-95 48.3-131.7c-20.4-60.5 1.9-112.3 4.9-120c58.1-5.2 118.5 41.6 123.2 45.3c33-8.9 70.7-13.6 112.9-13.6c42.4 0 80.2 4.9 113.5 13.9c11.3-8.6 67.3-48.8 121.3-43.9c2.9 7.7 24.7 58.3 5.5 118c32.4 36.8 48.9 82.7 48.9 132.3c0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9c177.1-59.7 304.6-227 304.6-424.1c0-247.2-200.4-447.3-447.5-447.3z"
-                  fill="currentColor"
-                />
-              </svg>
-            </a>
-          </div>
-          <a href="/project.html"><h2>BugTrack Project & Issue Management System</h2></a>
-
-          <div class="row tags">
-            <div class="tag">Laravel</div>
-            <div class="tag">Vue</div>
-            <div class="tag">SASS</div>
-            <div class="tag">MySQL</div>
-          </div>
+          <h3>Case study coming soon</h3>
+          <a href="/project.html"><h2>BugTrack</h2></a>
         </div>
 
         <div class="card-fluid">
@@ -105,38 +122,8 @@
               </video>
             </div>
           </div>
-          <div class="row row-space-between">
-            <h3 class="no-margin">Responsive Website</h3>
-            <div>
-              <a href="https://dessert-by-moho.netlify.app" style="margin-right: 15px">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                  <title>Live Website</title>
-                  <path
-                    d="M16.36 14c.08-.66.14-1.32.14-2c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2c0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2c0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2c0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
-              <a href="https://github.com/mohorima/Restaurant-website">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
-                  <title>Github</title>
-                  <rect x="0" y="0" width="1024" height="1024" fill="none" stroke="none" />
-                  <path
-                    d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5C64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9c26.4 39.1 77.9 32.5 104 26c5.7-23.5 17.9-44.5 34.7-60.8c-140.6-25.2-199.2-111-199.2-213c0-49.5 16.3-95 48.3-131.7c-20.4-60.5 1.9-112.3 4.9-120c58.1-5.2 118.5 41.6 123.2 45.3c33-8.9 70.7-13.6 112.9-13.6c42.4 0 80.2 4.9 113.5 13.9c11.3-8.6 67.3-48.8 121.3-43.9c2.9 7.7 24.7 58.3 5.5 118c32.4 36.8 48.9 82.7 48.9 132.3c0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9c177.1-59.7 304.6-227 304.6-424.1c0-247.2-200.4-447.3-447.5-447.3z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <h2>Desserts Restaurant Website</h2>
-          <div class="row tags">
-            <div class="tag">HTML5</div>
-            <div class="tag">JS</div>
-            <div class="tag">GSAP</div>
-            <div class="tag">SASS</div>
-            <div class="tag">CSS3</div>
-          </div>
+          <h3>Mobile App</h3>
+          <h2>Wellcare Diagnostics</h2>
         </div>
       </div>
     </section>
@@ -148,7 +135,7 @@
         <h1>Skills</h1>
         <div class="container">
           <div class="card">
-            <h3>Frontend</h3>
+            <h4>Frontend</h4>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -160,15 +147,7 @@
             </ul>
           </div>
           <div class="card">
-            <h3>Backend</h3>
-            <ul>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>MySQL</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>Other</h3>
+            <h4>Other</h4>
             <ul>
               <li>Figma</li>
               <li>Illustrator</li>
@@ -183,18 +162,22 @@
       </section>
 
       <section class="section-edu">
-        <h1>Education & Experience</h1>
-        <div class="container">
+        <h1>Experience & Education</h1>
+        <div class="container column">
           <div class="card">
-            <h3>2013-2017</h3>
-            <h2>Bachelor of Science in Computer Science</h2>
-            <p>Coventry University, UK</p>
-            <div class="tag">CGPA 4.00</div>
+            <h3>2021-2022</h3>
+            <h2>UX Designer & Fullstack Developer</h2>
+            <p>Lavisco Global Ltd</p>
           </div>
           <div class="card">
             <h3>2020-2021</h3>
             <h2>Software Developer</h2>
             <p>Xceed Bangladesh</p>
+          </div>
+          <div class="card">
+            <h3>2013-2017</h3>
+            <h2>Bachelor of Science in Computer Science</h2>
+            <p>Coventry University, UK</p>
           </div>
         </div>
       </section>
@@ -207,9 +190,9 @@
         <img class="sparkle" src="/images/sparkles.svg" alt="" />
       </div>
 
-      <h4>islammohorima@gmail.com</h4>
-      <h4><a href="/Mohorima-Islam-CV.pdf" download="mohorima-islam-cv">résumé</a></h4>
-      <h4>
+      <h4 class="mt-0">islammohorima@gmail.com</h4>
+      <h4 class="mt-0"><a href="/Mohorima-Islam-CV.pdf" download="mohorima-islam-cv">résumé</a></h4>
+      <h4 class="mt-0">
         <a href="https://github.com/mohorima" style="margin-right: 15px">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
             <title>Github</title>
@@ -217,6 +200,16 @@
             <path
               d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5C64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9c26.4 39.1 77.9 32.5 104 26c5.7-23.5 17.9-44.5 34.7-60.8c-140.6-25.2-199.2-111-199.2-213c0-49.5 16.3-95 48.3-131.7c-20.4-60.5 1.9-112.3 4.9-120c58.1-5.2 118.5 41.6 123.2 45.3c33-8.9 70.7-13.6 112.9-13.6c42.4 0 80.2 4.9 113.5 13.9c11.3-8.6 67.3-48.8 121.3-43.9c2.9 7.7 24.7 58.3 5.5 118c32.4 36.8 48.9 82.7 48.9 132.3c0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9c177.1-59.7 304.6-227 304.6-424.1c0-247.2-200.4-447.3-447.5-447.3z"
               fill="currentColor"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mohorima-islam/" style="margin-right: 15px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+            <title>Linkedin</title>
+            <path
+              fill="currentColor"
+              d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699v3.699z"
             />
           </svg>
         </a>
