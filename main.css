@@ -362,6 +362,11 @@ header {
   -o-transition: transform 300ms ease-in-out;
 }
 
+.nav-link a:hover,
+.nav-link a:active {
+  color: #ca4116;
+}
+
 .nav-link a:hover + .sparkle {
   transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
@@ -506,7 +511,7 @@ header {
   border-bottom-right-radius: 8px;
 }
 
-.frame-img-big{
+.frame-img-big {
   height: auto !important;
 }
 
@@ -622,7 +627,7 @@ header {
     border-bottom-right-radius: 8px;
   }
 
-  .card-framed-content .frame-img{
+  .card-framed-content .frame-img {
     height: auto;
   }
 }
