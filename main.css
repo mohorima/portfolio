@@ -637,6 +637,26 @@ header {
   height: auto;
   margin-bottom: 40px;
 }
+.img-full {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.img-full-m {
+  max-width: 340px;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
 
 .project-banner {
   width: 100%;
