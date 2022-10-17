@@ -115,6 +115,13 @@ p {
   overflow-y: hidden;
 }
 
+.inline-link{
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 16px;
+}
+
 /* containers----------------------------------------------------------- */
 section {
   width: 100%;
@@ -224,6 +231,10 @@ section {
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+}
+
+.bg-white{
+  background-color: #ffffff;
 }
 
 /* text & containers media query ------------------------------------------------- */
@@ -593,6 +604,11 @@ header {
   margin-bottom: 10px;
 }
 
+.horizontal-card{
+  width: 100%;
+  background-color: #ec6b42;
+}
+
 @media (max-width: 60rem) {
   .card-framed-content {
     min-height: 320px;
@@ -604,6 +620,10 @@ header {
   .swiper {
     width: 100% !important;
     min-height: max-content;
+  }
+  .swiper2 {
+    width: 100% !important;
+    max-height: 500px;
   }
   .frame {
     height: 22px;
@@ -819,6 +839,34 @@ header {
 
 .swiper {
   width: 800px;
+}
+.swiper2 {
+  width: 900px;
+  height: 90vh;
+}
+
+.swiper2 .swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.swiper2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .swiper-button-prev,
