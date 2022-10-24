@@ -69,11 +69,11 @@ const swiper2 = new Swiper(".swiper2", {
     },
     768: {
       slidesPerView: 1,
-      spaceBetween: 40,
+      spaceBetween: 20,
     },
     1024: {
       slidesPerView: 2,
-      spaceBetween: 50,
+      spaceBetween: 30,
     },
   },
 });

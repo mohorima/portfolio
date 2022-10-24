@@ -217,16 +217,14 @@ section {
   padding-bottom: 34px;
 }
 
-
-
-.horizontal-cards{
+.horizontal-cards {
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.horizontal-cards .card{
+.horizontal-cards .card {
   width: 33%;
   display: flex;
   flex-direction: column;
@@ -238,7 +236,7 @@ section {
   line-height: 166%;
   padding: 16px;
 }
-.horizontal-cards .card img{
+.horizontal-cards .card img {
   width: 120px;
   height: auto;
 }
@@ -290,20 +288,20 @@ section {
   background-color: #ffffff;
 }
 
-.story-block{
+.story-block {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: fit-content;
 }
-.story-block p{
+.story-block p {
   width: 700px;
 }
-.story-img{
+.story-img {
   width: 157px;
   margin-left: 32px;
 }
-.story-img-sm{
+.story-img-sm {
   display: none;
 }
 
@@ -312,7 +310,7 @@ section {
   section {
     padding: 28px 28px 80px 28px;
   }
-  .semi-header{
+  .semi-header {
     padding: 80px 28px;
   }
   .container {
@@ -361,10 +359,10 @@ section {
     margin-bottom: 0;
     padding-bottom: 0 !important;
   }
-  .semi-header .title{
+  .semi-header .title {
     margin-bottom: 32px;
   }
-  .semi-header .container{
+  .semi-header .container {
     gap: 16px;
   }
   .tags {
@@ -375,7 +373,7 @@ section {
   .card li {
     margin-bottom: 4px;
   }
-  ul{
+  ul {
     padding-inline-start: 24px;
   }
   .no-gap {
@@ -388,22 +386,22 @@ section {
     border-left: 3px solid #fefefe;
     line-height: 19px;
   }
-  .horizontal-cards .card{
+  .horizontal-cards .card {
     width: 50%;
     font-size: 12px;
     font-weight: 600;
     line-height: 166%;
   }
-  .story-block{
+  .story-block {
     flex-direction: column;
   }
-  .story-block p{
+  .story-block p {
     width: 100%;
   }
-  .story-img{
+  .story-img {
     display: none;
   }
-  .story-img-sm{
+  .story-img-sm {
     display: block;
     margin-top: 24px;
     margin-bottom: 8px;
@@ -784,7 +782,6 @@ header {
   height: auto;
 }
 
-
 /* collapsible--------------------------------------------- */
 
 .collapsible {
@@ -801,7 +798,7 @@ header {
   gap: 8px;
 }
 
-.active{
+.active {
   color: #ca4116;
 }
 
@@ -815,6 +812,12 @@ header {
   width: fit-content;
   display: none;
   overflow: hidden;
+}
+
+@media (max-width: 75rem) {
+  .fixed-width {
+    width: auto;
+  }
 }
 
 /* section about--------------------------------------------- */
@@ -988,10 +991,10 @@ header {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .swiper2 .swiper-slide img {
@@ -1000,7 +1003,6 @@ header {
   height: 100%;
   object-fit: contain;
 }
-
 
 .swiper-button-prev,
 .swiper-button-next {
