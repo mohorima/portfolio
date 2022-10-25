@@ -646,7 +646,7 @@ header {
 
 .frame {
   width: 100%;
-  height: 26px;
+  height: 24px;
   background-color: #ffffffc4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -662,10 +662,10 @@ header {
 }
 
 .frame-dots {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #4b4b4b;
-  margin-right: 10px;
+  margin-right: 8px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -719,12 +719,12 @@ header {
     max-height: 500px;
   }
   .frame {
-    height: 22px;
+    height: 20px;
   }
 
   .frame-dots {
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
   }
   .frame-text {
     padding: 26px;
