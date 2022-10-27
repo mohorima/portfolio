@@ -983,25 +983,25 @@ header {
 .swiper2 .swiper-slide {
   text-align: center;
   /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
 }
 
 .swiper2 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  max-height: calc(100% - 36px);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.swiper2 .swiper-slide h4 {
+  margin: 0;
+  height: 36px;
 }
 
 .swiper-button-prev,
