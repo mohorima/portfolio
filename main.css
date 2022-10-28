@@ -714,7 +714,8 @@ header {
     width: 100% !important;
     min-height: max-content;
   }
-  .swiper2 {
+  .swiper2,
+  .swiper3 {
     width: 100% !important;
     max-height: 500px;
   }
@@ -980,7 +981,13 @@ header {
   height: 90vh;
 }
 
-.swiper2 .swiper-slide {
+.swiper3 {
+  width: 900px;
+  height: 600px;
+}
+
+.swiper2 .swiper-slide,
+.swiper3 .swiper-slide {
   text-align: center;
   /* Center slide text vertically */
   display: flex;
@@ -989,7 +996,8 @@ header {
   flex-direction: column;
 }
 
-.swiper2 .swiper-slide img {
+.swiper2 .swiper-slide img,
+.swiper3 .swiper-slide img {
   display: block;
   max-width: 100%;
   max-height: calc(100% - 36px);
@@ -999,7 +1007,8 @@ header {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.swiper2 .swiper-slide h4 {
+.swiper2 .swiper-slide h4,
+.swiper3 .swiper-slide h4 {
   margin: 0;
   height: 36px;
 }
