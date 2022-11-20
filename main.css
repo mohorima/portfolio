@@ -783,6 +783,55 @@ header {
   height: auto;
 }
 
+.horizontal-img {
+  height: 600px;
+  width: 900px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.horizontal-img img {
+  height: 100%;
+  width: auto;
+}
+
+/* scrollbar--------------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+  background-color: #e2ddcb;
+  border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a29e90;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #838074;
+}
+
 /* collapsible--------------------------------------------- */
 
 .collapsible {

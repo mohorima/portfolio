@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Project Lavisco</title>
+    <link rel="icon" href="images/logo.svg" type="image/svg" sizes="16x16 32x32" />
+
+    <meta name="description" content="The portfolio of full-stack web developer Mohorima Islam, detailing recent projects and other personal details" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/main.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3205805, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div id="hamburger">
+        <svg class="menu" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="30" height="30" fill="#4B4B4B" />
+          <path d="M7.5 22.5H22.5V19.5H7.5V22.5ZM7.5 7.5V10.5H22.5V7.5H7.5ZM7.5 16.5H22.5V13.5H7.5V16.5Z" fill="#FAF5E0" />
+        </svg>
+
+        <svg class="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="30" height="30" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+          <rect x="0" y="0" width="20" height="20" fill="none" stroke="none" />
+          <path d="M14.95 6.46L11.41 10l3.54 3.54l-1.41 1.41L10 11.42l-3.53 3.53l-1.42-1.42L8.58 10L5.05 6.47l1.42-1.42L10 8.58l3.54-3.53z" fill="#faf5e0" />
+        </svg>
+      </div>
+    </header>
+
+    <div class="">
+      <nav class="nav">
+        <div class="nav-link">
+          <a href="home.html"
+            ><svg width="35" height="35" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.279999 64V63.36L1.56562 62.912C3.02266 62.4427 3.75118 61.2267 3.75118 59.264V26.496C3.75118 25.6427 3.64405 24.96 3.42978 24.448C3.25836 23.936 2.76554 23.5093 1.95131 23.168L0.279999 22.4V21.76H12.6863L24.5783 52.736L35.7632 21.76H48.4266V22.4L47.3981 22.784C46.5839 23.0827 46.0268 23.5093 45.7268 24.064C45.4269 24.576 45.2769 25.2587 45.2769 26.112V59.584C45.2769 60.4373 45.384 61.0987 45.5983 61.568C45.8125 62.0373 46.3268 62.4427 47.141 62.784L48.4266 63.36V64H32.4206V63.36L33.7705 62.784C34.5847 62.4427 35.099 62.0373 35.3133 61.568C35.5275 61.0987 35.6347 60.4373 35.6347 59.584V45.184L35.7632 26.88L22.3285 64H19.1144L5.10109 27.328L5.29393 43.264V59.392C5.29393 60.3307 5.4225 61.0987 5.67962 61.696C5.9796 62.2507 6.53671 62.656 7.35093 62.912L8.76512 63.36V64H0.279999Z"
+                fill="#CA4116"
+              />
+              <g clip-path="url(#clip0)">
+                <path d="M40.6482 5.46249C40.6482 14.191 35.9104 22 29.2287 22C35.9104 22 40.6482 29.8095 40.6482 38.5375C40.6482 29.8095 45.386 22 52.0677 22C45.386 22 40.6482 14.191 40.6482 5.46249Z" fill="#CA4116" />
+                <path d="M57.9373 25C57.9373 29.3648 55.5692 33.2687 52.2273 33.2687C55.5692 33.2687 57.9373 37.1738 57.9373 41.5375C57.9373 37.1738 60.3053 33.2687 63.6473 33.2687C60.3053 33.2687 57.9373 29.3648 57.9373 25Z" fill="#CA4116" />
+                <path d="M56.2449 0C56.2449 6.14138 52.9125 11.6358 48.2097 11.6358C52.9117 11.6358 56.2449 17.131 56.2449 23.2716C56.2449 17.131 59.5772 11.6358 64.28 11.6358C59.5772 11.6358 56.2449 6.14138 56.2449 0Z" fill="#CA4116" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="35.1538" height="42" fill="white" transform="translate(29.1262)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+        <div class="nav-link"><a href="home.html">Home</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+        <div class="nav-link"><a href="home.html#section-project">Projects</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+        <div class="nav-link"><a href="#section-contact">Contact</a><img class="sparkle" src="/images/sparkles.svg" alt="" /></div>
+      </nav>
+    </div>
+
+    <section class="container semi-header pb-2">
+      <div class="project-header">
+        <img class="project-banner" src="/images/sc-1.jpg" alt="" />
+        <h1 class="title mt-2">Lavisco</h1>
+        <div class="container">
+          <div class="card-fluid">
+            <h4>Description</h4>
+            <p>An online marketplace based in Sri Lanka, that provides small-businesses a platform for selling products. The target audience of this venture are people who live far (abroad) from their loved ones but wish to send them gifts like cakes, flowers & crafts on various occasions.</p>
+          </div>
+          <div class="card">
+            <h4>Role</h4>
+            <p>
+              UX/ UI Designer <br />
+              Fullstack Developer
+            </p>
+          </div>
+          <div class="card">
+            <h4>Duration</h4>
+            <p class="mb-1">Dec 2021 - onwards</p>
+            <h4>Deliverable</h4>
+            <p>Responsive Web</p>
+          </div>
+          <div class="card">
+            <h4>Tools</h4>
+            <p>
+              Figma <br />
+              Illustrator<br />
+              Photoshop<br />
+              VS Code
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="card-fluid-20 column row-md">
+        <a class="nav-link-2" href="#project-context">Story time</a>
+        <a class="nav-link-2" href="#project-problem">Problem</a>
+        <a class="nav-link-2" href="#project-goal">Goals</a>
+        <a class="nav-link-2" href="#project-competitor-feature">Competitive Analysis</a>
+        <a class="nav-link-2" href="#project-research">User Research</a>
+        <a class="nav-link-2" href="#project-process">Process</a>
+        <a class="nav-link-2" href="#project-wireframe">Wireframes</a>
+        <a class="nav-link-2" href="#project-testing">Usability Testing</a>
+        <a class="nav-link-2" href="#project-highfi">High fidelity</a>
+        <a class="nav-link-2" href="#project-accessibility">Accessibility</a>
+        <a class="nav-link-2" href="#project-future">Future</a>
+      </div>
+      <div class="card-fluid-80">
+        <div id="project-context" class="mb-2">
+          <h1>Once upon a time...</h1>
+          <div class="story-block">
+            <p>
+              It’s sunny today, thought Fathima, she had moved to Melbourne a year ago and has just realized how rare such a day is. Unwittingly, she remembered the lazy summer evenings she’d spent relaxing on the veranda in SriLanka. She’d be sipping tea and munching homemade cookies from Noori’s
+              bakery with her grandma.
+              <br />
+              <br />
+              <strong>Oh, how she missed her grandma.</strong>
+              <br />
+              Fathima started wondering if grandma missed her too, could she maybe surprise her with some brownies? She could knock Noori on whatsapp.
+              <br />
+              <br />
+              About 5 hours away from Fathima, was Noori, who was pondering if her baking business from home would survive Sri Lanka’s economic crisis.
+              <br />
+              <br />
+              She had just received a request from Fathima to deliver brownies, but she had to decline because there were too many risks. Who will she contact? What about payment & delivery? Won’t the time difference hinder communication?
+              <br />
+              <strong>Noori wished she didn’t have to turn away her loyal customers like this.</strong>
+            </p>
+            <img src="/images/lavisco/story-img.png" alt="" class="story-img" />
+            <img src="/images/lavisco/story-img-m.png" alt="" class="story-img-sm" />
+          </div>
+
+          <h4>Here comes Lavisco to save the day. Designed especially for all the Fathimas and Nooris around the world.</h4>
+
+        </div>
+
+        <div id="project-problem" class="mb-2">
+          <h1>What issues are we solving?</h1>
+          <div class="card">
+            <ul>
+              <li>Expatriates can’t send personal gifts to loved ones in SriLanka, due to lack of platform.</li>
+              <li>The stilted growth of home based businesses that run primarily online.</li>
+            </ul>
+          </div>
+
+          <button type="button" class="collapsible mt-2">
+            Elaborate<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
+          </button>
+          <div class="content">
+            <div class="card">
+              <h4>Send gifts to family and friends in SriLanka, while living abroad</h4>
+              <p>Sri Lankan expatriates wish to surprise their loved ones back home with gifts from local bakers & shops, but can’t due to lack of a proper platform.</p>
+            </div>
+            <div class="card mt-2">
+              <h4>The growth of home based businesses is stilted due to lack of platform</h4>
+              <p>Local home based or small time businesses want to reach a wider, foreign audience. Currently most of them conduct their business via social media which is an exhausting & unfulfilling process.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-goal" class="mb-2">
+          <h1>Our Goals</h1>
+          <div class="card">
+            <ul>
+              <li>Enables buyers to purchase handmade products from multiple artists & bakers from one place.</li>
+              <li>Provide foreign income stream to local sellers.</li>
+              <li>Design a platform where we benefit only when the customers profit.</li>
+            </ul>
+          </div>
+
+          <button type="button" class="collapsible mt-2">
+            Elaborate<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
+          </button>
+          <div class="content">
+            <div class="card">
+              <h4>Enables buyers to purchase handmade products from multiple artists & bakers from one place</h4>
+              <p>Create a reassuring online marketplace where people can purchase artisanal items, craft, homemade desserts, gift hampers, custom-made goods & more.</p>
+            </div>
+            <div class="card mt-2">
+              <h4>Provide foreign income stream to local sellers</h4>
+              <p>Orders placed from outside of Sri Lanka will generate greater income, due to appropriate pricing based on the buyer’s residing country’s minimum viable product price.</p>
+            </div>
+            <div class="card mt-2">
+              <h4>Eventually spread our operation all over the world & bolster sales</h4>
+            </div>
+            <div class="card mt-2">
+              <h4>Create a customer centric platform</h4>
+              <p>Design a platform where we benefit only when the customers profit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-competitor-feature" class="mb-2">
+          <h1>Who are our Competitors?</h1>
+          <div class="card">
+            <p>
+              Now that we've established Lavisco's purpose. Who else has similar goals? There's no need to reinvent the wheel afterall. <br />
+              We concluded, <strong>ecommerce giants Amazon & Etsy</strong>, along with <strong>local stars Kapruka & Wishque</strong> will be analyzed as our competitors.<br />
+            </p>
+
+            <div class="mt-2">
+              <a href="/project-lavisco-competitor.html" class="inline-link" target="_blank"
+                >View detailed competitor's analysis<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                  <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-research" class="mb-2">
+          <h1>Researching our Audience</h1>
+          <p class="mb-1">
+            Like all other ecommerce platforms, Lavisco also caters to buyers and sellers, but most <strong>buyers are living away from family</strong>, while the <strong>sellers are exclusively home-based or local merchants.</strong> <br />
+            A combination of remote <strong>interviews and surveys</strong> were conducted to gather information.
+          </p>
+          <div class="card">
+            <h2 class="">Key Findings</h2>
+            <div class="horizontal-cards">
+              <div class="card">
+                <img src="/images/lavisco/office.png" alt="" />
+                Sellers are dominantly female
+              </div>
+              <div class="card">
+                <img src="/images/lavisco/online-shopping3.png" alt="" />
+                Common user age range is 18-35 years
+              </div>
+              <div class="card"><img src="/images/lavisco/online-shopping.png" alt="" /> Most commonly used device is a phone</div>
+              <div class="card">
+                <img src="/images/lavisco/pie.png" alt="" />
+                Baked goods are popular home-made products
+              </div>
+              <div class="card">
+                <img src="/images/lavisco/online-shopping-2.png" alt="" />
+                Checkout impacts cart abandonment rate
+              </div>
+              <div class="card">
+                <img src="/images/lavisco/love-message.png" alt="" />
+                Seller reputation is a game-changer
+              </div>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <h2 class="">Defining the Audience</h2>
+            <div class="card">
+              <h4>Sellers</h4>
+              <ul>
+                <li>Individual bakers, artists, gift shops, florists and the handicrafts industry.</li>
+                <li>People selling products from home.</li>
+                <li>Small time businesses who want to go online but can’t.</li>
+              </ul>
+            </div>
+            <div class="card mb-1 mt-2">
+              <h4>Buyers</h4>
+              <ul>
+                <li>SriLankan expatriates who wish to send gifts to their loved ones back home.</li>
+                <li>People who want to eat locally baked goods.</li>
+                <li>People who want to buy customized, hand-crafted or unique items.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-1">
+            <a href="/project-lavisco-persona.html" class="inline-link" target="_blank"
+              >View user personas<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
+            ></a>
+          </div>
+        </div>
+
+        <div id="project-process" class="mb-2">
+          <h1>Plan & Process</h1>
+
+          <div class="card">
+            <p>The features of the web-app were determined and later confirmed after mapping each user archetype to their journey on the platform.</p>
+          </div>
+
+          <button type="button" class="collapsible mt-2">
+            View simplified flow charts
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
+          </button>
+          <div class="content fixed-width">
+            <div class="card">
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="card-framed-content card-framed-project">
+                      <h4>Buyer on Lavisco Website</h4>
+                      <img src="/images/dfd02.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-framed-content card-framed-project">
+                      <h4>Seller Dashboard</h4>
+                      <img src="/images/dfd0.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-testing" class="mb-2">
+          <h1>Our Audience tests Lavisco</h1>
+
+          <p class="mb-1">
+            What use is a platform that fails and frustrates its users? to get as close to our ideal goal, the end-users (sellers & buyers) were continuously involved via remote un-moderated usability testing.
+            <br />Want to know how user feedback was incorporated into the design?
+          </p>
+
+          <button type="button" class="collapsible mt-1">
+            View 2 redesigned screens<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
+          </button>
+          <div class="content">
+            <div class="card mb-1">
+              <h2>Home</h2>
+              <p>The first page users see holds great importance.</p>
+
+              <div class="card mt-2">
+                <img class="frame-img-box" src="/images/lavisco/improv-home.png" alt="Home page improvements" />
+              </div>
+            </div>
+
+            <div class="card">
+              <h2>Adding a Product</h2>
+              <p>A core feature of the platform, but a new concept for sellers in SriLanka as they were rarely exposed to such platforms.</p>
+
+              <div class="card mt-2">
+                <img class="frame-img-box" src="/images/lavisco/improv-prod-listing.png" alt="Dashboard Product Listing improvements" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-highfi" class="mb-2">
+          <h1>High fidelity</h1>
+
+          <p class="mb-1">Screens are shown in slider style due to space constraint. Please open the figma file for higher resolution.</p>
+
+          <a href="https://www.figma.com/file/YH9Q3mCaP9ilD85HmdhNQm/Potfolio-Lavisco?node-id=0%3A1" class="inline-link mb-1" target="_blank"
+            >Open Figma file here
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+              <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
+          ></a>
+
+          <div class="card mb-1">
+            <h2 class="">Major screens</h2>
+            <!-- Slider main container -->
+            <div class="swiper swiper2">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <h4>Home</h4>
+                  <img src="/images/lavisco/home1.jpg" alt="home" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Home continued</h4>
+                  <img src="/images/lavisco/home2.jpg" alt="home" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Categories</h4>
+                  <img src="/images/lavisco/category.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Product</h4>
+                  <img src="/images/lavisco/product-short.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Shop</h4>
+                  <img src="/images/lavisco/shop-short.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Registration / Sign up</h4>
+                  <img src="/images/lavisco/register-main.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Sign in</h4>
+                  <img src="/images/lavisco/sign-in-main.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Search results</h4>
+                  <img src="/images/lavisco/search-page.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Cart</h4>
+                  <img src="/images/lavisco/checkout-cart.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Checkout - Shipping</h4>
+                  <img src="/images/lavisco/checkout-1-shipping.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Checkout - Payment</h4>
+                  <img src="/images/lavisco/checkout-2-payment.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Checkout - Order Review</h4>
+                  <img src="/images/lavisco/checkout-3-review.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Order completed</h4>
+                  <img src="/images/lavisco/order-complete.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Rating</h4>
+                  <img src="/images/lavisco/rating.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Home mobile</h4>
+                  <img src="/images/lavisco/home-m.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Category mobile</h4>
+                  <img src="/images/lavisco/category-m.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Product mobile</h4>
+                  <img src="/images/lavisco/product-mobile.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Shop mobile</h4>
+                  <img src="/images/lavisco/store-m.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Registration mobile</h4>
+                  <img src="/images/lavisco/register-m.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Checkout mobile</h4>
+                  <img src="/images/lavisco/checkout-1-m.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Overview</h4>
+                  <img src="/images/lavisco/dashboard-overview.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Account</h4>
+                  <img src="/images/lavisco/dashboard-account.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Order List</h4>
+                  <img src="/images/lavisco/dash-orders.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Order View</h4>
+                  <img src="/images/lavisco/dash-order-view.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Product List</h4>
+                  <img src="/images/lavisco/dash-prod-1.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Product Grid</h4>
+                  <img src="/images/lavisco/dash-prod-2.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Product View</h4>
+                  <img src="/images/lavisco/dash-prod-view.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Add product step 1</h4>
+                  <img src="/images/lavisco/dash-prod-new1.jpg" alt="category" />
+                </div>
+                <div class="swiper-slide">
+                  <h4>Dashboard - Add product step 3</h4>
+                  <img src="/images/lavisco/dash-prod-new3.jpg" alt="category" />
+                </div>
+              </div>
+              <!-- If we need pagination -->
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <div class="card mb-1">
+            <h2>Style Guide</h2>
+            <p>Coming soon...</p>
+          </div>
+
+          <div class="card">
+            <h2>Interactive prototype</h2>
+            <div class="card">
+              <iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                width="800"
+                height="450"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3JrrOZb1mtXZc6ymNKlPh0%2FLavisco-UI-Original%3Fnode-id%3D903%253A5939%26scaling%3Dscale-down%26page-id%3D903%253A5938%26starting-point-node-id%3D903%253A5939"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-accessibility" class="mb-2">
+          <h1>Accessibility in Mind</h1>
+          <p>Will be updated soon.</p>
+        </div>
+
+        <div id="project-future" class="mb-2">
+          <h1>Present & Future</h1>
+          <div class="card mb-1">
+            <h2>Launch Results</h2>
+            <p>
+              In the first week of soft launching, <strong><a href="https://lavisco.lk/">Lavisco</a> got 100+ seller sign-ups</strong>, and many more eager sellers willing to put in the effort of shifting their business to our platform. As the marketing department picks up pace, buyers are gradually
+              but surely placing orders through Lavisco.
+            </p>
+            <div class="quotes">
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                  <g transform="rotate(180 7.5 7.5)">
+                    <path
+                      fill="#393939"
+                      fill-rule="evenodd"
+                      d="M9.425 3.441c.631-.204 1.359-.2 1.954.105c1.374.706 1.969 2.526 1.416 4.454c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 8 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473a1.8 1.8 0 0 1-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Zm-6 0c.631-.204 1.359-.2 1.954.105C6.753 4.252 7.348 6.072 6.795 8c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 2 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473c-.353.386-.814.61-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Z"
+                      clip-rule="evenodd"
+                    />
+                  </g>
+                </svg>
+                My friends couldn't believe I was getting such good orders in this economy.
+              </p>
+
+              <h5>
+                Owner of The Bake Lounge
+                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                  <path
+                    fill="#393939"
+                    fill-rule="evenodd"
+                    d="M9.425 3.441c.631-.204 1.359-.2 1.954.105c1.374.706 1.969 2.526 1.416 4.454c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 8 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473a1.8 1.8 0 0 1-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Zm-6 0c.631-.204 1.359-.2 1.954.105C6.753 4.252 7.348 6.072 6.795 8c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 2 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473c-.353.386-.814.61-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </h5>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Future Prospects</h2>
+            <p>What comes next? Grabbing all the opportunities we come across is a challenge due to resource constraints, but here are some actionable steps:</p>
+            <ul>
+              <li>Allow users to build a custom giftbox with the products of their choice.</li>
+              <li>Provide sellers a personalized storefront, not unlike Shopify.</li>
+              <li>Multi language support to increase accessibility.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h1>The end</h1>
+      </div>
+    </section>
+
+    <section id="section-contact">
+      <div class="contact-btn contact-btn-big">
+        <img class="circle" src="/images/circle.svg" alt="" />
+        <a href="mailto:islammohorima@gmail.com"> Contact<br />Mohorima </a>
+        <img class="sparkle" src="/images/sparkles.svg" alt="" />
+      </div>
+
+      <h4 class="mt-0">islammohorima@gmail.com</h4>
+      <h4 class="mt-0"><a href="/Mohorima-Islam-CV.pdf" download="mohorima-islam-cv">résumé</a></h4>
+      <h4 class="mt-0">
+        <a href="https://github.com/mohorima" style="margin-right: 15px">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+            <title>Github</title>
+            <rect x="0" y="0" width="1024" height="1024" fill="none" stroke="none" />
+            <path
+              d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5C64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9c26.4 39.1 77.9 32.5 104 26c5.7-23.5 17.9-44.5 34.7-60.8c-140.6-25.2-199.2-111-199.2-213c0-49.5 16.3-95 48.3-131.7c-20.4-60.5 1.9-112.3 4.9-120c58.1-5.2 118.5 41.6 123.2 45.3c33-8.9 70.7-13.6 112.9-13.6c42.4 0 80.2 4.9 113.5 13.9c11.3-8.6 67.3-48.8 121.3-43.9c2.9 7.7 24.7 58.3 5.5 118c32.4 36.8 48.9 82.7 48.9 132.3c0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9c177.1-59.7 304.6-227 304.6-424.1c0-247.2-200.4-447.3-447.5-447.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/mohorima-islam/" style="margin-right: 15px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+            <title>Linkedin</title>
+            <path
+              fill="currentColor"
+              d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699v3.699z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://www.behance.net/mohrimaislam">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="35" height="35" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+            <title>Behance</title>
+            <rect x="0" y="0" width="1024" height="1024" fill="none" stroke="none" />
+            <path
+              d="M420.3 470.3c8.7-6.3 12.9-16.7 12.9-31c.3-6.8-1.1-13.5-4.1-19.6c-2.7-4.9-6.7-9-11.6-11.9a44.8 44.8 0 0 0-16.6-6c-6.4-1.2-12.9-1.8-19.3-1.7h-70.3v79.7h76.1c13.1.1 24.2-3.1 32.9-9.5zm11.8 72c-9.8-7.5-22.9-11.2-39.2-11.2h-81.8v94h80.2c7.5 0 14.4-.7 21.1-2.1a50.5 50.5 0 0 0 17.8-7.2c5.1-3.3 9.2-7.8 12.3-13.6c3-5.8 4.5-13.2 4.5-22.1c0-17.7-5-30.2-14.9-37.8zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64zm86.5 286.9h138.4v33.7H598.5v-33.7zM512 628.8a89.52 89.52 0 0 1-27 31c-11.8 8.2-24.9 14.2-38.8 17.7a167.4 167.4 0 0 1-44.6 5.7H236V342.1h161c16.3 0 31.1 1.5 44.6 4.3c13.4 2.8 24.8 7.6 34.4 14.1c9.5 6.5 17 15.2 22.3 26c5.2 10.7 7.9 24.1 7.9 40c0 17.2-3.9 31.4-11.7 42.9c-7.9 11.5-19.3 20.8-34.8 28.1c21.1 6 36.6 16.7 46.8 31.7c10.4 15.2 15.5 33.4 15.5 54.8c0 17.4-3.3 32.3-10 44.8zM790.8 576H612.4c0 19.4 6.7 38 16.8 48c10.2 9.9 24.8 14.9 43.9 14.9c13.8 0 25.5-3.5 35.5-10.4c9.9-6.9 15.9-14.2 18.1-21.8h59.8c-9.6 29.7-24.2 50.9-44 63.7c-19.6 12.8-43.6 19.2-71.5 19.2c-19.5 0-37-3.2-52.7-9.3c-15.1-5.9-28.7-14.9-39.9-26.5a121.2 121.2 0 0 1-25.1-41.2c-6.1-16.9-9.1-34.7-8.9-52.6c0-18.5 3.1-35.7 9.1-51.7c11.5-31.1 35.4-56 65.9-68.9c16.3-6.8 33.8-10.2 51.5-10c21 0 39.2 4 55 12.2a111.6 111.6 0 0 1 38.6 32.8c10.1 13.7 17.2 29.3 21.7 46.9c4.3 17.3 5.8 35.5 4.6 54.7zm-122-95.6c-10.8 0-19.9 1.9-26.9 5.6c-7 3.7-12.8 8.3-17.2 13.6a48.4 48.4 0 0 0-9.1 17.4c-1.6 5.3-2.7 10.7-3.1 16.2H723c-1.6-17.3-7.6-30.1-15.6-39.1c-8.4-8.9-21.9-13.7-38.6-13.7z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </h4>
+    </section>
+
+    <script src="/app.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
