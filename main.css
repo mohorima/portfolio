@@ -1036,6 +1036,7 @@ header {
 }
 
 .swiper2 .swiper-slide,
+.project-info-swiper .swiper-slide,
 .swiper3 .swiper-slide {
   text-align: center;
   /* Center slide text vertically */
@@ -1046,6 +1047,7 @@ header {
 }
 
 .swiper2 .swiper-slide img,
+.project-info-swiper .swiper-slide img,
 .swiper3 .swiper-slide img {
   display: block;
   max-width: 100%;
@@ -1057,6 +1059,7 @@ header {
   -o-border-radius: 10px;
 }
 .swiper2 .swiper-slide h4,
+.project-info-swiper .swiper-slide h4,
 .swiper3 .swiper-slide h4 {
   margin: 0;
   height: 36px;
