@@ -1163,6 +1163,7 @@ header {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  border: 2px solid #f1f1f1;
 }
 .swiper2 .swiper-slide h4,
 .project-info-swiper .swiper-slide h4,
