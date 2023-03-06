@@ -157,7 +157,7 @@ p {
   background-color: #ececec;
 }
 
-strong{
+strong {
   font-weight: 600;
   letter-spacing: 0.03rem;
 }
@@ -177,7 +177,7 @@ section {
   -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
-  gap: 40px;
+  gap: 50px;
 }
 
 .semi-header {
@@ -375,6 +375,7 @@ li {
   }
   .main-title {
     font-size: 60px;
+    margin-bottom: 16px;
   }
   .title {
     font-size: 42px;
@@ -521,6 +522,7 @@ header {
     width: 100%;
     min-height: 100vh;
     z-index: 10;
+    padding: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -549,8 +551,7 @@ header {
     color: #ec6b42;
   }
   .nav-link .sparkle {
-    height: 18px;
-    margin-bottom: 0px;
+    display: none;
   }
 }
 
@@ -622,7 +623,7 @@ header {
   .section-hero {
     height: 100vh;
     justify-content: flex-end;
-    padding: 70px 28px;
+    padding: 90px 28px;
   }
 }
 
@@ -920,7 +921,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 110px;
 }
 .contact-btn {
   position: relative;
@@ -946,28 +947,15 @@ header {
   -o-transform: scale(1.2, 1.2);
 }
 
-@media (max-width: 60rem) {
-  .contact-btn {
-    margin-top: -10px;
-    margin-bottom: 30px;
-    font-size: 28px;
-  }
-  .circle {
-    width: 100px;
-    top: -55%;
-  }
-  .sparkle {
-    display: none;
-  }
-}
-
 .circle {
   position: absolute;
-  left: 70px;
-  top: -26px;
-  width: 100px;
-  height: auto;
+  left: 93px;
+  top: -20px;
   z-index: -1;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  border: 2px dotted #ca411669;
   animation: rotating 40s linear infinite;
   -webkit-animation: rotating 40s linear infinite;
 }
@@ -988,23 +976,15 @@ header {
 }
 
 .contact-btn-big {
-  margin: 0 10px 110px 10px;
+  margin: 0 10px 90px 10px;
   text-align: center;
 }
 
 .contact-btn-big .circle {
-  left: 50%;
-  top: -60px;
-  width: 210px;
+  left: 87%;
+  top: -25px;
   animation: rotating 60s linear infinite;
   -webkit-animation: rotating 60s linear infinite;
-}
-
-@media (max-width: 60rem) {
-  .contact-btn-big .circle {
-    width: 175px;
-    top: -40%;
-  }
 }
 
 .contact-btn-big .sparkle {
