@@ -14,29 +14,11 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
-    <!-- Hotjar Tracking Code for my site -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3205805, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
 
   <body>
+    <!-- nav -->
     <header>
       <div id="hamburger">
         <svg class="menu" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +33,7 @@
       </div>
     </header>
 
-    <div class="">
+    <div>
       <nav class="nav">
         <div class="nav-link">
           <a href="home.html"
@@ -79,6 +61,7 @@
       </nav>
     </div>
 
+    <!-- header -->
     <section class="container semi-header pb-2">
       <div>
         <h1 class="title mt-2">Lavisco</h1>
@@ -88,10 +71,11 @@
 
     <img class="project-banner pb-2" src="/images/sc-1.jpg" alt="" />
 
+    <!-- overview -->
     <section class="container">
       <div class="card-fluid">
         <h4>Description</h4>
-        <p>An online marketplace based in Sri Lanka, that provides small-businesses a platform for selling products. The target audience of this venture are people who live far (abroad) from their loved ones but wish to send them gifts like cakes, flowers & crafts on various occasions.</p>
+        <p>An online marketplace based in Sri Lanka, that provides small-businesses a platform for selling products. Targeted towards people who live far (abroad) from their loved ones but wish to send them gifts like cakes, flowers & crafts on various occasions.</p>
       </div>
       <div class="card">
         <h4>Role</h4>
@@ -112,53 +96,15 @@
 
     <img class="project-banner pb-2" src="/images/lavisco/sc-4.png" alt="" />
 
-    <section class="container">
-      <div class="card-fluid-20 column row-md">
-        <a class="nav-link-2" href="#project-context">Story time</a>
-        <a class="nav-link-2" href="#project-problem">Problem</a>
-        <a class="nav-link-2" href="#project-goal">Goals</a>
-        <a class="nav-link-2" href="#project-competitor-feature">Competitive Analysis</a>
-        <a class="nav-link-2" href="#project-research">User Research</a>
-        <a class="nav-link-2" href="#project-process">Process</a>
-        <a class="nav-link-2" href="#project-wireframe">Wireframes</a>
-        <a class="nav-link-2" href="#project-testing">Usability Testing</a>
-        <a class="nav-link-2" href="#project-highfi">High fidelity</a>
-        <a class="nav-link-2" href="#project-accessibility">Accessibility</a>
-        <a class="nav-link-2" href="#project-future">Future</a>
-      </div>
-      <div class="card-fluid-80">
-        <div id="project-context" class="mb-2">
-          <h1>Once upon a time...</h1>
-          <div class="story-block">
-            <p>
-              Fathima thought it's sunny today, a rarity in Melbourne. It reminded her of lazy summer evenings in SriLanka, sipping tea and munching on homemade cookies from Noori’s bakery with her grandma.
-              <br />
-              <br />
-              <strong>Oh, how she missed her grandma.</strong> Did grandma miss her too? could she perhaps surprise her with brownies? She could knock Noori on WhatsApp.
-              <br />
-              <br />
-              About 5 hours away from Fathima, Noori wondered if her home-based baking business could survive Sri Lanka's economic crisis.
-              <br />
-              <br />
-              She had just received a request from Fathima to deliver brownies, but she had to decline due to risks and uncertainties surrounding payment and delivery. Who could help her?
-              <strong>Noori regretted turning away loyal customers.</strong>
-            </p>
-            <img src="/images/lavisco/story-img.png" alt="" class="story-img" />
-            <img src="/images/lavisco/story-img-m.png" alt="" class="story-img-sm" />
-          </div>
-
-          <h4>Lavisco to the rescue! Designed for Fathimas and Nooris worldwide.</h4>
-        </div>
-
-        <div id="project-problem" class="mb-2">
-          <h1>What issues are we solving?</h1>
-          <div class="card">
-            <ul>
-              <li>Expatriates can’t send personal gifts to loved ones in SriLanka, due to lack of platform.</li>
-              <li>The stilted growth of home based businesses that run primarily online.</li>
-            </ul>
-          </div>
-
+    <!-- problems & goals -->
+    <section class="pb-2">
+      <div id="project-problem" class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">What issues are we solving?</h4>
+        <div class="text-block-horizontal-text">
+          <ul class="ul-no-padding">
+            <li>Expatriates can’t send personal gifts to loved ones in SriLanka, due to lack of platform.</li>
+            <li>The stilted growth of home based businesses that run primarily online.</li>
+          </ul>
           <button type="button" class="collapsible mt-2">
             Elaborate<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
           </button>
@@ -173,127 +119,48 @@
             </div>
           </div>
         </div>
+      </div>
+      <div id="project-competitor" class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">Who are our Competitors?</h4>
+        <div class="text-block-horizontal-text">
+          <p>Now that we've established Lavisco's purpose. Who else has similar goals or business model? We concluded, ecommerce giants <strong>Amazon & Etsy</strong>, along with local stars <strong>Kapruka & Wishque</strong> will be analyzed as our competitors.<br /></p>
 
-        <div id="project-goal" class="mb-2">
-          <h1>Our Goals</h1>
-          <div class="card">
-            <ul>
-              <li>Enables buyers to buy handmade goods from multiple artists and bakers in one place.</li>
-              <li>Provide foreign income stream to local sellers.</li>
-              <li>Design a platform where we benefit only when the customers profit.</li>
-            </ul>
-          </div>
-
-          <button type="button" class="collapsible mt-2">
-            Elaborate<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
-          </button>
-          <div class="content">
-            <div class="card">
-              <h4>Enables buyers to purchase handmade products from multiple artists & bakers from one place</h4>
-              <p>Create a reassuring online marketplace where people can purchase artisanal items, craft, homemade desserts, gift hampers, custom-made goods & more.</p>
-            </div>
-            <div class="card mt-2">
-              <h4>Provide foreign income stream to local sellers</h4>
-              <p>Orders placed from outside of Sri Lanka will generate greater income, due to appropriate pricing based on the buyer’s residing country’s minimum viable product price.</p>
-            </div>
-            <div class="card mt-2">
-              <h4>Eventually spread our operation all over the world & bolster sales</h4>
-            </div>
-            <div class="card mt-2">
-              <h4>Create a customer centric platform</h4>
-              <p>Design a platform where we benefit only when the customers profit.</p>
-            </div>
+          <div class="mt-2">
+            <a href="/project-lavisco-competitor.html" class="inline-link" target="_blank"
+              >View detailed competitor's analysis<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
+            ></a>
           </div>
         </div>
+      </div>
+      <div id="project-competitor" class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">Researching our Audience</h4>
+        <div class="text-block-horizontal-text">
+          <p>Lavisco, like other ecommerce platforms, caters to buyers and sellers, but most <strong>buyers live far from family</strong>, while <strong>sellers are home-based or local merchants.</strong></p>
 
-        <div id="project-competitor-feature" class="mb-2">
-          <h1>Who are our Competitors?</h1>
-          <div class="card">
-            <p>
-              Now that we've established Lavisco's purpose. Who else has similar goals? There's no need to reinvent the wheel afterall. <br />
-              We concluded, <strong>ecommerce giants Amazon & Etsy</strong>, along with <strong>local stars Kapruka & Wishque</strong> will be analyzed as our competitors.<br />
-            </p>
-
-            <div class="mt-2">
-              <a href="/project-lavisco-competitor.html" class="inline-link" target="_blank"
-                >View detailed competitor's analysis<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
-                  <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div id="project-research" class="mb-2">
-          <h1>Researching our Audience</h1>
-          <p class="mb-1">
-            Like all other ecommerce platforms, Lavisco also caters to buyers and sellers, but most <strong>buyers are living away from family</strong>, while the <strong>sellers are exclusively home-based or local merchants.</strong> <br />
-            A combination of remote <strong>interviews and surveys</strong> were conducted to gather information.
-          </p>
-          <div class="card mb-1">
-            <h2 class="">Key Findings</h2>
-            <div class="horizontal-cards">
-              <div class="card">
-                <img src="/images/lavisco/office.png" alt="" />
-                Sellers are dominantly female
-              </div>
-              <div class="card">
-                <img src="/images/lavisco/online-shopping3.png" alt="" />
-                Common user age range is 18-35 years
-              </div>
-              <div class="card"><img src="/images/lavisco/online-shopping.png" alt="" /> Most commonly used device is a phone</div>
-              <div class="card">
-                <img src="/images/lavisco/pie.png" alt="" />
-                Baked goods are popular home-made products
-              </div>
-              <div class="card">
-                <img src="/images/lavisco/online-shopping-2.png" alt="" />
-                Checkout impacts cart abandonment rate
-              </div>
-              <div class="card">
-                <img src="/images/lavisco/love-message.png" alt="" />
-                Seller reputation is a game-changer
-              </div>
-            </div>
-          </div>
-          <div class="card mb-1">
-            <h2 class="">Defining the Audience</h2>
-            <div class="card">
-              <h4>Sellers</h4>
-              <ul>
-                <li>Individual bakers, artists, gift shops, florists and the handicrafts industry.</li>
-                <li>People selling products from home.</li>
-                <li>Small time businesses who want to go online but can’t.</li>
-              </ul>
-            </div>
-            <div class="card">
-              <h4>Buyers</h4>
-              <ul>
-                <li>SriLankan expatriates who wish to send gifts to their loved ones back home.</li>
-                <li>People who want to eat locally baked goods.</li>
-                <li>People who want to buy customized, hand-crafted or unique items.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-1">
+          <div class="mt-2">
             <a href="/project-lavisco-persona.html" class="inline-link" target="_blank"
               >View user personas<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
                 <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
             ></a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div id="project-process" class="mb-2">
-          <h1>Plan & Process</h1>
+    <img class="project-banner pb-2" src="/images/lavisco/key-findings-3.png" alt="" />
 
-          <div class="card">
-            <p>The features of the web-app were determined and later confirmed after mapping each user archetype to their journey on the platform.</p>
-          </div>
-
+    <!-- flow & improv -->
+    <section>
+      <div id="project-flow" class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">Plan & Process</h4>
+        <div class="text-block-horizontal-text">
+          <p class="mb-0">Lavisco's features were determined and confirmed by mapping each user archetype to their journey on the platform.</p>
           <button type="button" class="collapsible mt-2">
             View simplified flow charts
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
           </button>
-          <div class="content fixed-width">
+          <div class="content">
             <div class="card">
               <!-- Slider main container -->
               <div class="swiper">
@@ -301,16 +168,12 @@
                 <div class="swiper-wrapper">
                   <!-- Slides -->
                   <div class="swiper-slide">
-                    <div class="card-framed-content card-framed-project">
-                      <h4>Buyer on Lavisco Website</h4>
-                      <img src="/images/dfd02.png" alt="" />
-                    </div>
+                    <h2>Buyer on Lavisco Website</h2>
+                    <img class="project-banner" src="/images/dfd02.png" alt="" />
                   </div>
                   <div class="swiper-slide">
-                    <div class="card-framed-content card-framed-project">
-                      <h4>Seller Dashboard</h4>
-                      <img src="/images/dfd0.png" alt="" />
-                    </div>
+                    <h2>Seller Dashboard</h2>
+                    <img class="project-banner" src="/images/dfd0.png" alt="" />
                   </div>
                 </div>
                 <!-- If we need navigation buttons -->
@@ -320,15 +183,14 @@
             </div>
           </div>
         </div>
-
-        <div id="project-testing" class="mb-2">
-          <h1>Our Audience tests Lavisco</h1>
-
-          <p class="mb-1">
-            What use is a platform that fails and frustrates its users? to get as close to our ideal goal, the end-users (sellers & buyers) were continuously involved via remote un-moderated usability testing.
-            <br />Want to know how user feedback was incorporated into the design?
+      </div>
+      <div id="project-improv" class="text-block-horizontal">
+        <h4 class="text-block-horizontal-header">Our Audience tests Lavisco</h4>
+        <div class="text-block-horizontal-text">
+          <p class="mb-0">
+            To fulfill our goals, we constantly involved end-users (sellers & buyers) via remote unmoderated usability testing & used the e-commerce UX research by Baymard and NN Group. <br />
+            Curious how we integrated user feedback into the design?
           </p>
-
           <button type="button" class="collapsible mt-1">
             View 2 redesigned screens<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 5.75L8 10.25l4.25-4.5" /></svg>
           </button>
@@ -352,222 +214,117 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div id="project-highfi" class="mb-2">
-          <h1>High fidelity</h1>
+    <!-- ui section 1 -->
+    <section class="pb-2">
+      <h1>Pleasant gifting experience</h1>
+      <p class="text-block-horizontal-text">We've designed a platform for buying handmade goods from multiple artists and bakers in one place, with the goal of delivering a satisfying gift-giving experience to SriLankans.</p>
+    </section>
 
-          <p class="mb-1">Screens are shown in slider style due to space constraint. Please open the figma file for higher resolution.</p>
+    <div class="video-container">
+      <video autoplay muted loop controls class="video-full">
+        <source src="images/lavisco/full-ui.mkv" type="video/mp4" />
+      </video>
+    </div>
 
-          <a href="https://www.figma.com/file/YH9Q3mCaP9ilD85HmdhNQm/Potfolio-Lavisco?node-id=0%3A1" class="inline-link mb-1" target="_blank"
-            >Open Figma file here
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
-              <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
-          ></a>
+    <!-- ui section 2 -->
+    <section class="pb-2">
+      <h1>A virtual store-front</h1>
+      <p class="text-block-horizontal-text">
+        Every seller has an exclusive virtual store, similar to Shopify. Lavisco aims to provide foreign income stream to local sellers, while profiting only when the customers do.
+        <a href="https://www.figma.com/file/YH9Q3mCaP9ilD85HmdhNQm/Potfolio-Lavisco?node-id=0%3A1" class="inline-link" target="_blank"
+          >Figma file for high-res UI here
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+            <path fill="none" stroke="#393939" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 2.75h-5.5v10.5h10.5v-5.5m0-5l-5.5 5.5m3-6.5h3.5v3.5" /></svg
+        ></a>
+      </p>
+    </section>
 
-          <div class="card mb-1">
-            <h2 class="">Major screens</h2>
-            <!-- Slider main container -->
-            <div class="swiper swiper2">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <h4>Home</h4>
-                  <img src="/images/lavisco/home1.jpg" alt="home" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Home continued</h4>
-                  <img src="/images/lavisco/home2.jpg" alt="home" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Categories</h4>
-                  <img src="/images/lavisco/category.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Product</h4>
-                  <img src="/images/lavisco/product-short.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Shop</h4>
-                  <img src="/images/lavisco/shop-short.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Registration / Sign up</h4>
-                  <img src="/images/lavisco/register-main.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Sign in</h4>
-                  <img src="/images/lavisco/sign-in-main.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Search results</h4>
-                  <img src="/images/lavisco/search-page.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Cart</h4>
-                  <img src="/images/lavisco/checkout-cart.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Checkout - Shipping</h4>
-                  <img src="/images/lavisco/checkout-1-shipping.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Checkout - Payment</h4>
-                  <img src="/images/lavisco/checkout-2-payment.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Checkout - Order Review</h4>
-                  <img src="/images/lavisco/checkout-3-review.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Order completed</h4>
-                  <img src="/images/lavisco/order-complete.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Rating</h4>
-                  <img src="/images/lavisco/rating.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Home mobile</h4>
-                  <img src="/images/lavisco/home-m.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Category mobile</h4>
-                  <img src="/images/lavisco/category-m.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Product mobile</h4>
-                  <img src="/images/lavisco/product-mobile.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Shop mobile</h4>
-                  <img src="/images/lavisco/store-m.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Registration mobile</h4>
-                  <img src="/images/lavisco/register-m.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Checkout mobile</h4>
-                  <img src="/images/lavisco/checkout-1-m.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Overview</h4>
-                  <img src="/images/lavisco/dashboard-overview.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Account</h4>
-                  <img src="/images/lavisco/dashboard-account.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Order List</h4>
-                  <img src="/images/lavisco/dash-orders.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Order View</h4>
-                  <img src="/images/lavisco/dash-order-view.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Product List</h4>
-                  <img src="/images/lavisco/dash-prod-1.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Product Grid</h4>
-                  <img src="/images/lavisco/dash-prod-2.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Product View</h4>
-                  <img src="/images/lavisco/dash-prod-view.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Add product step 1</h4>
-                  <img src="/images/lavisco/dash-prod-new1.jpg" alt="category" />
-                </div>
-                <div class="swiper-slide">
-                  <h4>Dashboard - Add product step 3</h4>
-                  <img src="/images/lavisco/dash-prod-new3.jpg" alt="category" />
-                </div>
-              </div>
-              <!-- If we need pagination -->
+    <div class="horizontal-scroll-bg">
+      <div class="horizontal-scroll">
+        <img class="img-desktop" src="/images/lavisco/home1.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/home-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/home2.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/product-short.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/product-mobile.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/category.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/category-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/checkout-cart.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/cart-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/checkout-1-shipping.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/checkout-1-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/checkout-3-review.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/order-complete.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/search-page.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/search-page-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/shop-short.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/store-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/rating.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/register-main.jpg" alt="lavisco-ui-image" />
+        <img class="img-mob" src="/images/lavisco/register-m.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dashboard-overview.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dashboard-account.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-1.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-2.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-view.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-new1.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-new3.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-orders.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-order-view.jpg" alt="lavisco-ui-image" />
+        <img class="img-desktop" src="/images/lavisco/dash-prod-img-gallery.jpg" alt="lavisco-ui-image" />
+      </div>
+    </div>
 
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-          </div>
-
-          <div class="card mb-1">
-            <h2>Style Guide</h2>
-            <p>Coming soon...</p>
-          </div>
-
-          <div class="card">
-            <h2>Interactive prototype</h2>
-            <div class="card">
-              <iframe
-                style="border: 1px solid rgba(0, 0, 0, 0.1)"
-                width="800"
-                height="450"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3JrrOZb1mtXZc6ymNKlPh0%2FLavisco-UI-Original%3Fnode-id%3D903%253A5939%26scaling%3Dscale-down%26page-id%3D903%253A5938%26starting-point-node-id%3D903%253A5939"
-                allowfullscreen
-              ></iframe>
-            </div>
+    <!-- future -->
+    <section class="pb-2">
+      <h1>Present & Future</h1>
+      <div class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">Launch Results</h4>
+        <div class="text-block-horizontal-text">
+          <p>
+            In the first week of soft launch, <strong><a href="https://lavisco.lk/">Lavisco</a> got 100+ seller sign-ups</strong>, with more eager to shift their business to our platform. As marketing gains momentum, buyers are gradually placing orders through Lavisco.
+          </p>
+          <div class="quotes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+              <g transform="rotate(180 7.5 7.5)">
+                <path
+                  fill="#393939"
+                  fill-rule="evenodd"
+                  d="M9.425 3.441c.631-.204 1.359-.2 1.954.105c1.374.706 1.969 2.526 1.416 4.454c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 8 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473a1.8 1.8 0 0 1-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Zm-6 0c.631-.204 1.359-.2 1.954.105C6.753 4.252 7.348 6.072 6.795 8c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 2 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473c-.353.386-.814.61-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Z"
+                  clip-rule="evenodd"
+                />
+              </g>
+            </svg>
+            My friends were incredulous about my successful orders in this economy. <i>- Owner of The Bake Lounge</i>
           </div>
         </div>
-
-        <div id="project-accessibility" class="mb-2">
-          <h1>Accessibility in Mind</h1>
-          <p>Will be updated soon.</p>
+      </div>
+      <div class="text-block-horizontal mb-2">
+        <h4 class="text-block-horizontal-header">Future Prospects</h4>
+        <div class="text-block-horizontal-text">
+          <p>What's next? Seizing opportunities is challenging with limited resources, but here are some actionable steps:</p>
+          <ul>
+            <li>Allow users to build a custom giftbox with the products of their choice.</li>
+            <li>Provide sellers a personalized storefront, not unlike Shopify.</li>
+            <li>Multi language support to increase accessibility.</li>
+          </ul>
         </div>
+      </div>
+    </section>
 
-        <div id="project-future" class="mb-2">
-          <h1>Present & Future</h1>
-          <div class="card mb-1">
-            <h2>Launch Results</h2>
-            <p>
-              In the first week of soft launching, <strong><a href="https://lavisco.lk/">Lavisco</a> got 100+ seller sign-ups</strong>, and many more eager sellers willing to put in the effort of shifting their business to our platform. As the marketing department picks up pace, buyers are gradually
-              but surely placing orders through Lavisco.
-            </p>
-            <div class="quotes">
-              <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
-                  <g transform="rotate(180 7.5 7.5)">
-                    <path
-                      fill="#393939"
-                      fill-rule="evenodd"
-                      d="M9.425 3.441c.631-.204 1.359-.2 1.954.105c1.374.706 1.969 2.526 1.416 4.454c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 8 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473a1.8 1.8 0 0 1-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Zm-6 0c.631-.204 1.359-.2 1.954.105C6.753 4.252 7.348 6.072 6.795 8c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 2 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473c-.353.386-.814.61-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Z"
-                      clip-rule="evenodd"
-                    />
-                  </g>
-                </svg>
-                My friends couldn't believe I was getting such good orders in this economy.
-              </p>
-
-              <h5>
-                Owner of The Bake Lounge
-                <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
-                  <path
-                    fill="#393939"
-                    fill-rule="evenodd"
-                    d="M9.425 3.441c.631-.204 1.359-.2 1.954.105c1.374.706 1.969 2.526 1.416 4.454c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 8 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473a1.8 1.8 0 0 1-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Zm-6 0c.631-.204 1.359-.2 1.954.105C6.753 4.252 7.348 6.072 6.795 8c-.248.865-.685 1.705-1.609 2.552c-.924.848-2.206 1.348-2.8 1.348A.38.38 0 0 1 2 11.525c0-.207.176-.375.386-.375c.679 0 1.286-.37 2.005-.914c.55-.417.98-.95 1.217-1.414c.455-.888.47-2.14-.265-2.473c-.353.386-.814.61-1.366.61c-1.2 0-1.907-.965-1.876-1.839c.029-.835.56-1.43 1.324-1.679Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </h5>
-            </div>
-          </div>
-          <div class="card">
-            <h2>Future Prospects</h2>
-            <p>What comes next? Grabbing all the opportunities we come across is a challenge due to resource constraints, but here are some actionable steps:</p>
-            <ul>
-              <li>Allow users to build a custom giftbox with the products of their choice.</li>
-              <li>Provide sellers a personalized storefront, not unlike Shopify.</li>
-              <li>Multi language support to increase accessibility.</li>
-            </ul>
-          </div>
-        </div>
-
-        <h1>The end</h1>
+    <!-- prototype -->
+    <section class="pb-2">
+      <h1>The interactive prototype</h1>
+      <div class="text-block-horizontal-text">
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1)"
+          width="1100"
+          height="650"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3JrrOZb1mtXZc6ymNKlPh0%2FLavisco-UI-Original%3Fnode-id%3D903%253A5939%26scaling%3Dscale-down%26page-id%3D903%253A5938%26starting-point-node-id%3D903%253A5939"
+          allowfullscreen
+        ></iframe>
       </div>
     </section>
 

@@ -96,9 +96,9 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.04rem;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
   line-height: 180%;
   margin-bottom: 16px;
 }
@@ -159,7 +159,10 @@ p {
 
 strong {
   font-weight: 600;
-  letter-spacing: 0.03rem;
+}
+
+.highlight {
+  background-color: #dbd8d1;
 }
 
 /* containers----------------------------------------------------------- */
@@ -294,7 +297,7 @@ section {
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .tags {
@@ -1078,6 +1081,63 @@ header {
   object-fit: cover;
   object-position: center;
   margin-bottom: 20px;
+}
+
+.video-container {
+  height: auto;
+  text-align: center;
+  background-color: #dd1e50;
+  padding: 80px;
+  margin: 0 180px 180px 180px;
+}
+
+.video-full {
+  width: 900px;
+  border-radius: 24px;
+  border: 6px solid #ffffff80;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.horizontal-scroll-bg {
+  width: 100%;
+  margin-bottom: 180px;
+  background: url(images/lavisco/test-slider-bg.png) center no-repeat, #c83c62;
+  background-size: cover;
+}
+.horizontal-scroll {
+  height: auto;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.horizontal-scroll .img-desktop {
+  height: 450px;
+  min-width: 650px;
+  margin-right: 30px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.horizontal-scroll .img-mob {
+  height: 450px;
+  min-width: 210px;
+  margin-right: 30px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 @media (max-width: 60rem) {
