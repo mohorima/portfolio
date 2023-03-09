@@ -1111,9 +1111,16 @@ header {
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
-  padding: 80px;
+  padding: 80px 80px 60px 80px;
   display: flex;
   flex-direction: row;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.horizontal-scroll p {
+  margin-right: 30px;
 }
 .horizontal-scroll .img-desktop {
   height: 450px;
@@ -1171,6 +1178,12 @@ header {
   .horizontal-scroll {
     padding: 28px;
   }
+  .horizontal-scroll p {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 148%;
+    margin-top: 10px;
+  }
   .horizontal-scroll .img-desktop {
     height: 240px;
     min-width: 350px;
@@ -1181,7 +1194,7 @@ header {
     min-width: 106px;
     margin-right: 20px;
   }
-  iframe{
+  iframe {
     width: 100%;
     height: 350px;
   }
