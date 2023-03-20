@@ -64,7 +64,7 @@ h1 {
   color: #393939;
   font-size: 84px;
   letter-spacing: 0.05rem;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   line-height: 113%;
 }
 
@@ -378,7 +378,6 @@ li {
   }
   .main-title {
     font-size: 60px;
-    margin-bottom: 16px;
   }
   .title {
     font-size: 42px;
